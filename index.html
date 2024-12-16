@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Moderustic:wght@300..800&family=Noto+Sans+Hanunoo&family=Roboto:ital,wght@0,700;1,100&display=swap" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+    <main>
+        <article class="ascensor">
+            <section class="ascensorSec">
+                <p>
+                    <a href="#tituloid">⬆</a>
+                </p>
+            </section>
+        </article>
+        <article class="hPrincipal">
+            <section class="titulo" id="tituloid">
+                <h1>Conversor de Divisas</h1>
+            </section>
+            <section class="menuDesple">
+                <a href="#">
+                    <img src="img/logo.PNG" alt="" id="logo">
+                </a>
+            </section>
+        </article>
+        <article class="formulario">
+            <section class="formularioSection">
+                <form action="" method="post" id="formulario">
+                    <section class="monto">
+                        <input type="number" name="cant" id="cant" placeholder="Monto..." class="form-control">
+                    </section>
+                    <br><br>
+                    <h3>Divisas</h3>
+                    <div class="categoriasJuntas">
+                        <section class="categMia">
+                            <select name="categoriaMia" id="divisaMia" class="form-select">
+                                <option value="dolares/oficial">Dolar Blue</option>
+                                <option value="cotizaciones/eur">Euro</option>
+                                <option value="cotizaciones/brl">Real Brasileño</option>
+                                <option value="cotizaciones/clp">Peso Chileno</option>
+                                <option value="cotizaciones/uyu">Peso Uruguayo</option>
+                            </select>
+                        </section>
+                        <p>🔄</p>
+                        <section class="categ">
+                            <select name="categoria" id="divisa" class="form-select">
+                                <option value="dolares/oficial">Dolar Blue</option>
+                                <option value="cotizaciones/eur">Euro</option>
+                                <option value="cotizaciones/brl">Real Brasileño</option>
+                                <option value="cotizaciones/clp">Peso Chileno</option>
+                                <option value="cotizaciones/uyu">Peso Uruguayo</option>
+                            </select>
+                        </section>
+                    </div>
+                    <br><br>
+                    <section class="enviar">
+                        <input type="submit" value="Convertir" id="enviar" class="btn btn-primary">
+                    </section>
+                </form>
+            </section>
+            <section class="totalSection">
+                <h3>
+                    Total:  
+                </h3> 
+                <div class="totalDiv" id="totalDivid"></div>
+            </section>
+        </article>
+        <article class="tablaPrecioArticle" id="tablaPrecioArticleid">
+            <h2>
+                Relacion Precio de Divisas
+            </h2>
+            <section class="tablaPrecio">
+                <p class="moneda1" id="moneda1">Peso Argentino</p>
+                <p class="moneda2" id="moneda2">Moneda 2</p>
+                <p class="valor1" id="valor1">10</p>
+                <p class="valor2" id="valor2">Valor 2</p>
+                <p class="valor3" id="valor3">100</p>
+                <p class="valor4" id="valor4">Valor 4</p>
+                <p class="valor5" id="valor5">1000</p>
+                <p class="valor6" id="valor6">Valor 6</p>
+            </section>
+        </article>
+        <article class="infoDivisas" id="infoDivisasid">
+            <h3>
+                Sobre Divisas
+            </h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia id suscipit hic quidem minima. Qui voluptate blanditiis vel dolores rerum est architecto consectetur tenetur quae ut. Labore sequi enim nihil sint mollitia laudantium quos eos voluptatem excepturi aspernatur facilis expedita, repudiandae suscipit dignissimos praesentium fugiat vero veniam explicabo quibusdam reiciendis quas dicta quasi! Magnam vitae dolor exercitationem eligendi quasi explicabo, ad optio, laudantium culpa, sunt vel maxime eius earum quas beatae expedita distinctio impedit reiciendis amet saepe. Maiores fuga ad non fugit nesciunt voluptas deleniti dolorum accusamus magni! Cupiditate pariatur deserunt voluptas harum ducimus, voluptate hic distinctio illo earum nihil?
+            </p>
+        </article>
+        <article class="contactoArt">
+            <h3>Contacto</h3>
+            <section>
+                <form action="" method="post" id="contacto">
+                    <section class="correoSec">
+                        <label for="correo">Correo</label>
+                        <input type="text" name="correo" id="correo" placeholder="example@..." class="form-control">
+                    </section>
+                    <section class="texto">
+                        <label for="consulta">Consulta</label>
+                        <input type="text" name="consulta" id="consulta" placeholder="consulta..." class="form-control">
+                    </section>
+                </form>
+            </section>
+        </article>
+        <article class="ola">
+            <img src="img/Vector.png" alt="">
+        </article>
+    </main>
+    <aside>
+        <article>
+            <section class="logo-section">
+                <a href="#"><img src="img/logo.PNG" alt="logo" id="logo-cerrar"></a>
+                <h2>Divisas</h2>
+            </section>
+            <ul>
+                <li><a href="#cant">Cambio</a></li>
+                <li><a href="#tablaPrecioArticleid">Relacion</a></li>
+                <li><a href="#infoDivisasid">Sobre Divisas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </article>
+    </aside>
+    <script src="js/js.js"></script>
+</body>
+</html>
